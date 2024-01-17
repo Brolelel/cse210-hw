@@ -22,5 +22,15 @@ class Program
             count++;
         }
 
+        // do-while loop
+        int anotherCount = 0;
+        do {
+            System.Console.WriteLine($"AnotherCount = {++anotherCount}");
+        } while (anotherCount < 10);
+
+        // for loop
+        for(int i=0; i<5; i++){
+            System.Console.WriteLine($"i = {i}");
+        }
     }
 }
