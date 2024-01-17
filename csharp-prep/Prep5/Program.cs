@@ -32,6 +32,14 @@ class Program
 
         PrintName("Bob");
         
+        // variable scope
+
+        var y = 0;
+        {
+            var w = 10;
+            w = y + 4;
+            y= w + 5;
+        }
 
     
     
