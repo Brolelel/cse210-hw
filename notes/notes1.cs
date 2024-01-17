@@ -21,3 +21,7 @@
         else{
             System.Console.WriteLine("Your Old");
         }
+
+        // git config --list
+        // git config --local user.name ""
+        //git config --local user.email ""
