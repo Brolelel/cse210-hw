@@ -39,8 +39,8 @@ class Program
         // class prep homework
 
         Random randomGenerator = new Random();
-        int number = randomGenerator.Next(1, 11);
-        Console.WriteLine($"The magic number is {number}.");
+        int number = randomGenerator.Next(1, 100);
+        //Console.WriteLine($"The magic number is {number}.");
         int guessNumber = -1;
 
         while (guessNumber != number)
@@ -58,7 +58,7 @@ class Program
             }
             else
             {
-                System.Console.WriteLine("Correct");
+                System.Console.WriteLine("That is Correct! You Guessed it!");
             }
         }
     }
