@@ -4,6 +4,12 @@ public class Car {
     public int gallons;
     public string make;
     public string model;
+    public int TotalRange() {
+        return gallons * milesPerGallon;
+    }
+    public void Display() {
+        System.Console.WriteLine($"{make} {model}: Range= {TotalRange()}");
+    }
 }
 
 class Program
@@ -28,7 +34,9 @@ class Program
 
             foreach (var c in cars)
             {
-                System.Console.WriteLine($"{c.make} {c.model}: Range = {c.gallons * c.milesPerGallon}");
+                // System.Console.WriteLine($"{c.make} {c.model}: Range = {c.gallons * c.milesPerGallon}");
+                c.Display();
+                int range = c.TotalRange
             }
     }
 }
