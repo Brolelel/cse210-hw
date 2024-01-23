@@ -1,42 +1,27 @@
 using System;
-public class Car {
-    public int milesPerGallon;
-    public int gallons;
-    public string make;
-    public string model;
-    public int TotalRange() {
-        return gallons * milesPerGallon;
-    }
-    public void Display() {
-        System.Console.WriteLine($"{make} {model}: Range= {TotalRange()}");
-    }
-}
 
 class Program
 {
     static void Main(string[] args)
     {   
-        var cars = new List<Car>();
+        Job job1 = new Job();
+        job1._jobTitle = "Software Engineer";
+        job1._company = "Microsoft";
+        job1._startYear = 2019;
+        job1._endYear = 2022;
 
-        var car = new Car();
-            car.make = "Honda";
-            car.model = "Civic";
-            car.gallons = 10;
-            car.milesPerGallon = 30;
-            cars.Add(car);
+        Job job2 = new Job();
+        job2._jobTitle = "Manager";
+        job2._company = "Apple";
+        job2._startYear = 2022;
+        job2._endYear = 2023;
 
-            car = new Car();
-            car.make = "Ford";
-            car.model = "F-150";
-            car.gallons = 30;
-            car.milesPerGallon = 5;
-            cars.Add(car);
+        Resume myResume = new Resume();
+        myResume._name = "Allison Rose";
 
-            foreach (var c in cars)
-            {
-                // System.Console.WriteLine($"{c.make} {c.model}: Range = {c.gallons * c.milesPerGallon}");
-                c.Display();
-                int range = c.TotalRange
-            }
+        myResume._jobs.Add(job1);
+        myResume._jobs.Add(job2);
+
+        myResume.Display();
     }
 }
