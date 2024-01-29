@@ -1,9 +1,50 @@
 using System;
 
+
+
 class Program
 {
     static void Main(string[] args)
-    {
-        Console.WriteLine("Hello Develop02 World!");
+    {   
+        List<Entry> entries = new List<Entry>();
+        string number = "0";
+        Save _save=  new Save();
+        Load _load= new Load();
+        while (number !="5"){
+            Console.WriteLine("Welcome to the Journal program!");
+            Console.WriteLine("1.Write");
+            Console.WriteLine("2.Display");
+            Console.WriteLine("3.Load");
+            Console.WriteLine("4.Save");
+            Console.WriteLine("5.Quit");
+            Console.Write("What would you like to do? ");
+            number = Console.ReadLine();
+
+            if (number== "1"){
+                Entry entry = new Entry();
+                entry.promptquestion();
+                entries.Add(entry);
+            
+            }
+            else if (number=="2"){
+                foreach(Entry entry in entries){
+                    Console.WriteLine(entry._date);
+                    Console.WriteLine(entry._prompt);
+                    Console.WriteLine(entry._entry);
+                }
+            }
+            else if (number=="3"){
+                _load._load(entries);
+
+            }
+            else if (number=="4"){
+                _save._save(entries);
+
+            }
+            
+            
+        }
+            
+
     }
 }
