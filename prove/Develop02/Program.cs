@@ -24,13 +24,16 @@ class Program
                 Entry entry = new Entry();
                 entry.promptquestion();
                 entries.Add(entry);
+                
             
             }
             else if (number=="2"){
                 foreach(Entry entry in entries){
-                    Console.WriteLine(entry._date);
-                    Console.WriteLine(entry._prompt);
-                    Console.WriteLine(entry._entry);
+                    Console.WriteLine(" ");
+                    Console.WriteLine($"Entry Data: {entry._date}");
+                    Console.WriteLine($"Prompt Asked: {entry._prompt}");
+                    Console.WriteLine($"Answer from User: {entry._entry}");
+                    Console.WriteLine(" ");
                 }
             }
             else if (number=="3"){
