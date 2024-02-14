@@ -2,8 +2,6 @@ using System;
 
 class Program
 {
-    // Kyle Guo, Austin Reeves, Jayton Crockett, Jacob Strong, Michael Torres
-    // We exceeded the requirement: we added an oppition that the use can choose their scriptures from 0 ~1.
 
     static void Main(string[] args)
     {
