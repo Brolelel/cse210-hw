@@ -15,10 +15,9 @@ class Program
             scripture.display();
             Console.WriteLine($"\n" +"Press enter to continue or type quit to finish. ");
             entry = Console.ReadLine();
-             scripture.hide_word();
             scripture.hide_word();
             scripture.hide_word();
-            // Console.WriteLine(scripture.numbers.Count);
+            scripture.hide_word();
             if (scripture.numbers.Count == 0){
                 break;
             }
