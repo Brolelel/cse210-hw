@@ -1,4 +1,4 @@
-// Jayton Crockett, Austin Reeves, Jacob Strong, Michael Torres, and Kyle Guo
+
 public class SaveLoad{
       public SaveLoad(){}
       public void _save(List<Goals>MenuList){

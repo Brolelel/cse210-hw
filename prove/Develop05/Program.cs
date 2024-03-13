@@ -1,5 +1,4 @@
 using System;
-// Jayton Crockett, Austin Reeves, Jacob Strong, Michael Torres, and Kyle Guo
 class Program
 {
     static void Main(string[] args)

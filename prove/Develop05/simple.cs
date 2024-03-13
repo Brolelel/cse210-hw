@@ -1,4 +1,4 @@
-// Jayton Crockett, Austin Reeves, Jacob Strong, Michael Torres, and Kyle Guo
+
 public class Simple:Goals{
 
 public Simple(string name, string type, int point,bool isChecked):base(name,type,point){

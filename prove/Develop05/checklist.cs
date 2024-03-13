@@ -1,4 +1,4 @@
-// Jayton Crockett, Austin Reeves, Jacob Strong, Michael Torres, and Kyle Guo
+
 public class Checklist:Goals
 
 {
