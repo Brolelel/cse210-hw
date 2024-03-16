@@ -45,7 +45,6 @@ class Program
                 list.DisplayGoals();
                 Console.Write("which one?");
                 string choice = Console.ReadLine();
-                list.Pointnumber() += list.MenuList[int.Parse(choice)-1].CompletedGoals();
                 Console.WriteLine($"You have {list.Pointnumber()} points");
                 
 
