@@ -53,17 +53,6 @@ class Program
 
     static void PerformLibraryActions(Library library)
     {
-        // Creating instances of classes
-        Book book1 = new Book("The Great Gatsby", "F. Scott Fitzgerald", 1925, 180);
-        Book book2 = new Book("To Kill a Mockingbird", "Harper Lee", 1960, 281);
-        LibraryMember member1 = new LibraryMember("John", 1001);
-        Librarian librarian1 = new Librarian("Alice", 2001);
-
-        // Adding items, members, and librarians to the library
-        library.AddItem(book1);
-        library.AddItem(book2);
-        library.AddMember(member1);
-        library.AddLibrarian(librarian1);
 
         // Displaying the library catalog
         library.DisplayCatalog();
