@@ -54,7 +54,7 @@ class Program
     static void PerformLibraryActions(Library library)
     {
 
-        // Displaying the library catalog
+        // Displaying the library
         library.DisplayCatalog();
 
         // Add a book
