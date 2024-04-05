@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-// Class representing the library
+
 class Library
 {
     public List<LibraryItem> Catalog { get; set; }

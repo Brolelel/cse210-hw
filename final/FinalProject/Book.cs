@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-// Derived class representing books
+
 class Book : LibraryItem
 {
     public int Pages { get; set; }

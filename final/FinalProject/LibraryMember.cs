@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-// Class representing library members
+
 class LibraryMember
 {
     public string Name { get; set; }

@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-// Class representing librarians
+
 class Librarian
 {
     public string Name { get; set; }
