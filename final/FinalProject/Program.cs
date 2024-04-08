@@ -7,7 +7,8 @@ class Program
         Library library = new Library();
 
         while (true)
-        {
+        {      
+            Console.WriteLine("Welcome to the City Library!");
             Console.WriteLine("1. Login");
             Console.WriteLine("2. Register");
             Console.WriteLine("3. Exit");
@@ -29,6 +30,7 @@ class Program
                 else
                 {
                     Console.WriteLine("Login failed.");
+                    Console.WriteLine("Please choose option 2 to register an account.");
                 }
             }
             else if (choice == "2")
